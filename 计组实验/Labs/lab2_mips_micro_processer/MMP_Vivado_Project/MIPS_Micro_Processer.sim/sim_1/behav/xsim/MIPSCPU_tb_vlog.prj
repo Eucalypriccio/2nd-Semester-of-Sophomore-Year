@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/ALU.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/ALUController.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/Adder.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/Concat.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/Controller.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/DataRam.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/DigitExtend.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/InstrRom.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/LeftShift.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/MIPSCPU.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/MainController.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/Mux2to1.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/Mux3to1.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/PC.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/RegFile.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/modules/SignedExtend.v" \
+"../../../../../Labs/lab2_mips_micro_processer/source/simulations/MIPSCPU_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,26 @@
+14:30:56 **** Build of configuration Debug for project interrupt_handler ****
+make all 
+'Building file: ../src/interrupt_handler.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_handler.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/interrupt_handler.d" -MT"src/interrupt_handler.o" -o "src/interrupt_handler.o" "../src/interrupt_handler.c"
+'Finished building: ../src/interrupt_handler.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: interrupt_handler.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "interrupt_handler.elf"  ./src/interrupt_handler.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_handler.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size interrupt_handler.elf  |tee "interrupt_handler.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3288	    260	   3132	   6680	   1a18	interrupt_handler.elf
+'Finished building: interrupt_handler.elf.size'
+' '
+
+14:30:57 Build Finished (took 1s.652ms)
+

@@ -1,0 +1,26 @@
+14:31:01 **** Build of configuration Debug for project seg_display ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/seg_display.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/seg_display.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/seg_display.d" -MT"src/seg_display.o" -o "src/seg_display.o" "../src/seg_display.c"
+'Finished building: ../src/seg_display.c'
+' '
+'Building target: seg_display.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "seg_display.elf"  ./src/platform.o ./src/seg_display.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: seg_display.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size seg_display.elf  |tee "seg_display.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2764	    360	   3108	   6232	   1858	seg_display.elf
+'Finished building: seg_display.elf.size'
+' '
+
+14:31:02 Build Finished (took 1s.644ms)
+

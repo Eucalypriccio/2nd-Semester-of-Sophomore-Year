@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}实验目的}{2}{section.1}%
+\contentsline {section}{\numberline {2}实验元器件}{2}{section.2}%
+\contentsline {section}{\numberline {3}实验任务}{2}{section.3}%
+\contentsline {section}{\numberline {4}实验原理}{3}{section.4}%
+\contentsline {section}{\numberline {5}实验过程}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}第一档频率范围}{6}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}第二档频率范围}{6}{subsection.5.2}%
+\contentsline {section}{\numberline {6}实验小结}{8}{section.6}%

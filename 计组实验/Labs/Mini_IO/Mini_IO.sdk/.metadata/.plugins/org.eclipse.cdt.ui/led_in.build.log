@@ -1,0 +1,26 @@
+14:30:57 **** Build of configuration Debug for project led_in ****
+make all 
+'Building file: ../src/led_in.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_in.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/led_in.d" -MT"src/led_in.o" -o "src/led_in.o" "../src/led_in.c"
+'Finished building: ../src/led_in.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: led_in.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "led_in.elf"  ./src/led_in.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_in.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size led_in.elf  |tee "led_in.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6224	    364	   3108	   9696	   25e0	led_in.elf
+'Finished building: led_in.elf.size'
+' '
+
+14:30:59 Build Finished (took 1s.621ms)
+

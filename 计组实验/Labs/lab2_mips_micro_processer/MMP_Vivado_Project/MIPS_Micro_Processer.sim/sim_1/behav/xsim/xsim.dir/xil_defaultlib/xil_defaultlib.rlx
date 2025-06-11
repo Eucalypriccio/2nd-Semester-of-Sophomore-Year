@@ -1,0 +1,26 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/ALU.v,1744101286,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/ALUController.v,,ALU,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/ALUController.v,1745915752,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Adder.v,,ALUControl,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Adder.v,1744123867,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Concat.v,,Adder,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Concat.v,1744124224,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Controller.v,,Concat,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Controller.v,1746693584,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/DataRam.v,,Controller,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/DataRam.v,1745845906,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/DigitExtend.v,,DataRAM,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/DigitExtend.v,1745906767,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/InstrRom.v,,DigitExtend,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/InstrRom.v,1745675358,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/LeftShift.v,,InstrROM,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/LeftShift.v,1744125739,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/MIPSCPU.v,,LeftShift,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/MIPSCPU.v,1746693650,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/MainController.v,,MIPSCPU,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/MainController.v,1745671602,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Mux2to1.v,,MainCtr,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Mux2to1.v,1744204519,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Mux3to1.v,,Mux2_1,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Mux3to1.v,1744123883,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/PC.v,,Mux3_1,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/PC.v,1744124120,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/RegFile.v,,PC,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/RegFile.v,1745653095,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/SignedExtend.v,,RegFile,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/SignedExtend.v,1745305728,verilog,,D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/simulations/MIPSCPU_sim.v,,SignedExtend,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/simulations/ALU_sim.v,1745843277,verilog,,,,ALU_tb,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/simulations/Adder_sim.v,1745842496,verilog,,,,Adder_tb,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/simulations/Controller_sim.v,1745911714,verilog,,,,Controller_tb,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/simulations/DigitExtend_sim.v,1745910756,verilog,,,,DigitExtend_tb,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/simulations/MIPSCPU_sim.v,1745675190,verilog,,,,MIPSCPU_tb,,,,,,,,
+D:/MYHUST/sophomore_year/second_semester/CCIT/MIPS_Micro_Processer/MIPS_Micro_Processer.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,

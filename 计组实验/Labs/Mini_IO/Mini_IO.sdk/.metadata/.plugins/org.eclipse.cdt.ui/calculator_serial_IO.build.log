@@ -1,0 +1,26 @@
+14:30:41 **** Build of configuration Debug for project calculator_serial_IO ****
+make all 
+'Building file: ../src/calculator.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/calculator.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/calculator.d" -MT"src/calculator.o" -o "src/calculator.o" "../src/calculator.c"
+'Finished building: ../src/calculator.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: calculator_serial_IO.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "calculator_serial_IO.elf"  ./src/calculator.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: calculator_serial_IO.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size calculator_serial_IO.elf  |tee "calculator_serial_IO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21096	    364	   3108	  24568	   5ff8	calculator_serial_IO.elf
+'Finished building: calculator_serial_IO.elf.size'
+' '
+
+14:30:42 Build Finished (took 1s.652ms)
+

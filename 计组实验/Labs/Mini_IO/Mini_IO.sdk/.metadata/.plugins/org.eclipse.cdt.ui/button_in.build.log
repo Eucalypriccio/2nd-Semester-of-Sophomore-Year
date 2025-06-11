@@ -1,0 +1,26 @@
+14:30:42 **** Build of configuration Debug for project button_in ****
+make all 
+'Building file: ../src/button_in.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/button_in.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_in.d" -MT"src/button_in.o" -o "src/button_in.o" "../src/button_in.c"
+'Finished building: ../src/button_in.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: button_in.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "button_in.elf"  ./src/button_in.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: button_in.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size button_in.elf  |tee "button_in.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6088	    364	   3108	   9560	   2558	button_in.elf
+'Finished building: button_in.elf.size'
+' '
+
+14:30:44 Build Finished (took 1s.637ms)
+

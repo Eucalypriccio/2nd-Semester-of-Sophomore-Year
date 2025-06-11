@@ -1,0 +1,34 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/ALUController.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Concat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Concat
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/DataRam.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/DigitExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DigitExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/InstrRom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/LeftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LeftShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/MIPSCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPSCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/MainController.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainCtr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Mux2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/Mux3to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/SignedExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignedExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/simulations/MIPSCPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPSCPU_tb

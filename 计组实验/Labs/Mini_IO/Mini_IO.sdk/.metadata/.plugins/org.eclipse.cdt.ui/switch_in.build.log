@@ -1,0 +1,21 @@
+14:31:04 **** Build of configuration Debug for project switch_in ****
+make all 
+'Building file: ../src/switch_in.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/switch_in.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/switch_in.d" -MT"src/switch_in.o" -o "src/switch_in.o" "../src/switch_in.c"
+'Finished building: ../src/switch_in.c'
+' '
+'Building target: switch_in.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "switch_in.elf"  ./src/switch_in.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: switch_in.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size switch_in.elf  |tee "switch_in.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6040	    364	   3108	   9512	   2528	switch_in.elf
+'Finished building: switch_in.elf.size'
+' '
+
+14:31:05 Build Finished (took 1s.228ms)
+

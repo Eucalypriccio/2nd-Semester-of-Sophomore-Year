@@ -1,0 +1,26 @@
+14:30:38 **** Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3952	    360	   3624	   7936	   1f00	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+
+14:30:41 Build Finished (took 2s.662ms)
+

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MIPSCPU_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MIPSCPU_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="45722018fs"></ZoomEndTime>
+      <Cursor1Time time="120000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="293"></NameColumnWidth>
+      <ValueColumnWidth column_width="143"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject fp_name="/MIPSCPU_tb/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/Instr" type="array">
+      <obj_property name="ElementShortName">Instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/CurrentPC" type="array">
+      <obj_property name="ElementShortName">CurrentPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CurrentPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/J" type="logic">
+      <obj_property name="ElementShortName">J</obj_property>
+      <obj_property name="ObjectShortName">J</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/B" type="logic">
+      <obj_property name="ElementShortName">B</obj_property>
+      <obj_property name="ObjectShortName">B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/RegDst" type="logic">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/RegWr" type="logic">
+      <obj_property name="ElementShortName">RegWr</obj_property>
+      <obj_property name="ObjectShortName">RegWr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/MemWr" type="logic">
+      <obj_property name="ElementShortName">MemWr</obj_property>
+      <obj_property name="ObjectShortName">MemWr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/Mem2Reg" type="logic">
+      <obj_property name="ElementShortName">Mem2Reg</obj_property>
+      <obj_property name="ObjectShortName">Mem2Reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/ALUCtr" type="array">
+      <obj_property name="ElementShortName">ALUCtr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUCtr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/Zero_Final" type="logic">
+      <obj_property name="ElementShortName">Zero_Final</obj_property>
+      <obj_property name="ObjectShortName">Zero_Final</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/Sel" type="array">
+      <obj_property name="ElementShortName">Sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/RsData" type="array">
+      <obj_property name="ElementShortName">RsData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RsData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/RtData" type="array">
+      <obj_property name="ElementShortName">RtData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RtData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/Res" type="array">
+      <obj_property name="ElementShortName">Res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Res[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/MemDataOut" type="array">
+      <obj_property name="ElementShortName">MemDataOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MemDataOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/ExtendedDataOut" type="array">
+      <obj_property name="ElementShortName">ExtendedDataOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ExtendedDataOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/FinalDataOut" type="array">
+      <obj_property name="ElementShortName">FinalDataOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FinalDataOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/Imm32_Signed" type="array">
+      <obj_property name="ElementShortName">Imm32_Signed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm32_Signed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/Imm32_Final" type="array">
+      <obj_property name="ElementShortName">Imm32_Final[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm32_Final[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/ALUSrc2" type="array">
+      <obj_property name="ElementShortName">ALUSrc2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/RegDataIn" type="array">
+      <obj_property name="ElementShortName">RegDataIn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RegDataIn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/SeqPC" type="array">
+      <obj_property name="ElementShortName">SeqPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SeqPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/BranPC" type="array">
+      <obj_property name="ElementShortName">BranPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BranPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/JumpPC" type="array">
+      <obj_property name="ElementShortName">JumpPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">JumpPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/NextPC" type="array">
+      <obj_property name="ElementShortName">NextPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NextPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/Imm32_Signed_offset" type="array">
+      <obj_property name="ElementShortName">Imm32_Signed_offset[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm32_Signed_offset[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/Jmp_low_order" type="array">
+      <obj_property name="ElementShortName">Jmp_low_order[27:0]</obj_property>
+      <obj_property name="ObjectShortName">Jmp_low_order[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/WrAddr" type="array">
+      <obj_property name="ElementShortName">WrAddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WrAddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/ExtendType" type="array">
+      <obj_property name="ElementShortName">ExtendType[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ExtendType[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/LoadType" type="logic">
+      <obj_property name="ElementShortName">LoadType</obj_property>
+      <obj_property name="ObjectShortName">LoadType</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/Imm_ExtendType" type="logic">
+      <obj_property name="ElementShortName">Imm_ExtendType</obj_property>
+      <obj_property name="ObjectShortName">Imm_ExtendType</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/BranchType" type="logic">
+      <obj_property name="ElementShortName">BranchType</obj_property>
+      <obj_property name="ObjectShortName">BranchType</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/RAM_U3/regs" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">regs[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[0:31][31:0]</obj_property>
+      <obj_property name="label">RAM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/ROM_U0/regs" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">regs[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[0:31][31:0]</obj_property>
+      <obj_property name="label">ROM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSCPU_tb/uut/RegFile_U1/regs" type="array">
+      <obj_property name="ElementShortName">regs[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[0:31][31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,26 @@
+14:30:52 **** Build of configuration Debug for project Parallel_Lab1_fastintr ****
+make all 
+'Building file: ../src/lab1_fastintr.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab1_fastintr.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab1_fastintr.d" -MT"src/lab1_fastintr.o" -o "src/lab1_fastintr.o" "../src/lab1_fastintr.c"
+'Finished building: ../src/lab1_fastintr.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Parallel_Lab1_fastintr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Parallel_Lab1_fastintr.elf"  ./src/lab1_fastintr.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Parallel_Lab1_fastintr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Parallel_Lab1_fastintr.elf  |tee "Parallel_Lab1_fastintr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4104	    372	   3124	   7600	   1db0	Parallel_Lab1_fastintr.elf
+'Finished building: Parallel_Lab1_fastintr.elf.size'
+' '
+
+14:30:54 Build Finished (took 1s.612ms)
+

@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}引言}{2}{section.1}%
+\contentsline {section}{\numberline {2}历史回眸：从缺芯徒空悲到破壁求发展}{2}{section.2}%
+\contentsline {section}{\numberline {3}现状剖析：“独立自主、自立更生”的求存之路}{2}{section.3}%
+\contentsline {section}{\numberline {4}未来展望：以思想重塑技术文明}{3}{section.4}%
+\contentsline {section}{\numberline {5}结语}{3}{section.5}%

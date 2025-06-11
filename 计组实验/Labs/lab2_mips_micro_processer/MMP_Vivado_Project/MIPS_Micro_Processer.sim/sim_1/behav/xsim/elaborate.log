@@ -1,0 +1,34 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 8b18f18cf72349f0946ab7b3325de529 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MIPSCPU_tb_behav xil_defaultlib.MIPSCPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'In1' [D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/MIPSCPU.v:132]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'In2' [D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/MIPSCPU.v:133]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Out' [D:/MYHUST/sophomore_year/second_semester/CCIT/Labs/lab2_mips_micro_processer/source/modules/MIPSCPU.v:135]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DataRAM
+Compiling module xil_defaultlib.InstrROM
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.MainCtr
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.DigitExtend
+Compiling module xil_defaultlib.SignedExtend
+Compiling module xil_defaultlib.Mux2_1
+Compiling module xil_defaultlib.Mux2_1(n=5)
+Compiling module xil_defaultlib.Mux3_1
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Concat(n=1,m=1)
+Compiling module xil_defaultlib.Concat
+Compiling module xil_defaultlib.LeftShift
+Compiling module xil_defaultlib.LeftShift(n=26,m=28)
+Compiling module xil_defaultlib.MIPSCPU
+Compiling module xil_defaultlib.MIPSCPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MIPSCPU_tb_behav

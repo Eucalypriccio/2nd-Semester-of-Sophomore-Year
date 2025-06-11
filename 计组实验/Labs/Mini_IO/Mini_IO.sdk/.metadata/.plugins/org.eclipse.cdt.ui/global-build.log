@@ -1,0 +1,2135 @@
+17:16:37 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+17:16:51 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12056	    264	   3112	  15432	   3c48	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+17:16:56 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+17:25:53 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12080	    264	   3112	  15456	   3c60	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+17:26:23 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+17:28:32 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3952	    360	   3624	   7936	   1f00	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+17:28:37 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+17:30:06 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12056	    264	   3112	  15432	   3c48	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+17:30:27 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+17:31:41 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12056	    264	   3112	  15432	   3c48	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+18:25:43 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12080	    264	   3112	  15456	   3c60	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+18:26:10 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12104	    264	   3112	  15480	   3c78	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+18:26:26 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+18:27:42 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+18:28:03 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12104	    264	   3112	  15480	   3c78	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+18:28:25 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+18:29:02 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12080	    264	   3112	  15456	   3c60	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+18:29:05 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+18:34:35 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+18:35:30 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+18:36:02 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12104	    264	   3112	  15480	   3c78	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+18:36:11 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+18:40:08 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11936	    264	   3112	  15312	   3bd0	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+18:40:13 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+18:58:27 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11836	    264	   3116	  15216	   3b70	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+18:58:30 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+19:00:25 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11812	    264	   3116	  15192	   3b58	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:00:29 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+19:00:44 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11836	    264	   3116	  15216	   3b70	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:00:56 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11836	    264	   3116	  15216	   3b70	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:08:43 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11836	    264	   3116	  15216	   3b70	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:10:27 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+19:16:49 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11860	    264	   3116	  15240	   3b88	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:16:52 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+19:17:13 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11860	    264	   3116	  15240	   3b88	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:18:26 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11848	    264	   3112	  15224	   3b78	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:18:36 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+19:19:16 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11860	    264	   3116	  15240	   3b88	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:22:41 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11860	    264	   3116	  15240	   3b88	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:38:48 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11836	    264	   3116	  15216	   3b70	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:38:55 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+19:40:07 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11912	    264	   3112	  15288	   3bb8	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:40:18 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+19:41:03 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+19:41:03 **** Incremental Build of configuration Debug for project calculator_serial_IO ****
+make all 
+make: Nothing to be done for 'all'.
+19:41:04 **** Incremental Build of configuration Debug for project button_in ****
+make all 
+make: Nothing to be done for 'all'.
+19:41:04 **** Incremental Build of configuration Debug for project Parallel_Lab3_pgmctr ****
+make all 
+make: Nothing to be done for 'all'.
+19:41:05 **** Incremental Build of configuration Debug for project Parallel_Lab3_intrhdl ****
+make all 
+make: Nothing to be done for 'all'.
+19:41:05 **** Incremental Build of configuration Debug for project Parallel_Lab3_fastintr ****
+make all 
+make: Nothing to be done for 'all'.
+Command canceled
+19:41:32 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11928	    264	   3112	  15304	   3bc8	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:41:33 **** Build of configuration Debug for project Parallel_Lab3_fastintr ****
+make all 
+make: Nothing to be done for 'all'.
+19:41:38 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+19:42:25 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11836	    264	   3116	  15216	   3b70	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:55:17 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11836	    264	   3116	  15216	   3b70	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:55:21 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+19:56:46 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11984	    264	   3112	  15360	   3c00	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:56:49 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+19:58:20 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12056	    264	   3112	  15432	   3c48	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:58:28 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12080	    264	   3112	  15456	   3c60	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:58:32 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+19:59:11 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12104	    264	   3112	  15480	   3c78	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+19:59:15 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:59 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12220	    264	   3116	  15600	   3cf0	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+20:04:02 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+20:05:20 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12144	    264	   3112	  15520	   3ca0	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+20:05:24 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+20:06:49 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12220	    264	   3116	  15600	   3cf0	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+20:06:52 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:51 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12196	    264	   3116	  15576	   3cd8	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+20:14:55 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+20:15:42 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12220	    264	   3116	  15600	   3cf0	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+20:15:47 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+20:16:24 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+20:19:06 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12048	    264	   3112	  15424	   3c40	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+20:19:09 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+20:19:30 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12072	    264	   3112	  15448	   3c58	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+20:21:04 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+20:22:07 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+../src/chainsaw_wave.c: In function 'tmrHandler':
+../src/chainsaw_wave.c:101:54: error: expected expression before ')' token
+  Xil_Out32(XPAR_TMRCTR_0_BASEADDR + XTC_TCSR_OFFSET, );
+                                                      ^
+make: *** [src/subdir.mk:26: src/chainsaw_wave.o] Error 1
+20:22:11 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12024	    264	   3112	  15400	   3c28	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+20:22:19 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+20:22:33 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12048	    264	   3112	  15424	   3c40	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+20:22:38 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+20:23:07 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12048	    264	   3112	  15424	   3c40	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+20:23:14 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+20:23:43 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12024	    264	   3112	  15400	   3c28	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+10:37:48 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+10:38:43 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+10:38:54 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+10:46:22 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+../src/chainsaw_wave.c: In function 'main':
+../src/chainsaw_wave.c:47:6: warning: unused variable 'count1' [-Wunused-variable]
+  u32 count1 = Xil_In32(XPAR_TMRCTR_0_BASEADDR + XTC_TCR_OFFSET);
+      ^~~~~~
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11836	    264	   3116	  15216	   3b70	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+10:46:30 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+Command canceled
+10:46:36 **** Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+10:48:06 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12024	    264	   3112	  15400	   3c28	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+10:48:11 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+10:50:26 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12048	    264	   3112	  15424	   3c40	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+10:50:31 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+10:52:57 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12024	    264	   3112	  15400	   3c28	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+10:53:02 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+10:56:50 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12000	    264	   3112	  15376	   3c10	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+10:56:54 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+10:58:10 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12024	    264	   3112	  15400	   3c28	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+10:58:14 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+10:58:29 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+11:00:53 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12000	    264	   3112	  15376	   3c10	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+11:00:57 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+11:06:11 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12052	    264	   3116	  15432	   3c48	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+11:06:19 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+11:06:42 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12076	    264	   3116	  15456	   3c60	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+11:06:48 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+11:07:19 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12048	    264	   3112	  15424	   3c40	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+11:07:25 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:19 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12048	    264	   3112	  15424	   3c40	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+11:11:27 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+11:13:25 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12104	    264	   3112	  15480	   3c78	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+11:13:32 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+11:13:41 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12080	    264	   3112	  15456	   3c60	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+11:13:48 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:47 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12080	    264	   3112	  15456	   3c60	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+11:18:52 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+11:21:55 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3952	    360	   3624	   7936	   1f00	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+11:30:28 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+11:31:19 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+12:24:02 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3952	    360	   3624	   7936	   1f00	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+14:11:31 **** Incremental Build of configuration Debug for project chainsaw_wave ****
+make all 
+make: Nothing to be done for 'all'.
+14:22:06 **** Auto Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3952	    360	   3624	   7936	   1f00	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+10:18:44 **** Build of configuration Debug for project strem_light ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: strem_light.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "strem_light.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: strem_light.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size strem_light.elf  |tee "strem_light.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3140	    360	   3108	   6608	   19d0	strem_light.elf
+'Finished building: strem_light.elf.size'
+' '
+10:18:54 **** Clean-only build of configuration Debug for project stream_light ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  strem_light.elf.size  strem_light.elf
+' '
+10:18:54 **** Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: stream_light.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "stream_light.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: stream_light.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size stream_light.elf  |tee "stream_light.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3140	    360	   3108	   6608	   19d0	stream_light.elf
+'Finished building: stream_light.elf.size'
+' '
+11:17:02 **** Auto Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'tmrHandler':
+../src/helloworld.c:90:6: error: 'status' undeclared (first use in this function); did you mean 'strdup'?
+  if((status & XTC_CSR_INT_OCCURED_MASK) == XTC_CSR_INT_OCCURED_MASK)
+      ^~~~~~
+      strdup
+../src/helloworld.c:90:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:88:6: warning: variable 'tcsr' set but not used [-Wunused-but-set-variable]
+  int tcsr;
+      ^~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+11:17:27 **** Auto Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: stream_light.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "stream_light.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: stream_light.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size stream_light.elf  |tee "stream_light.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3888	    288	   3120	   7296	   1c80	stream_light.elf
+'Finished building: stream_light.elf.size'
+' '
+11:17:46 **** Clean-only build of configuration Debug for project stream_light ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  stream_light.elf.size  stream_light.elf
+' '
+11:17:46 **** Auto Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/stream_light.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream_light.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/stream_light.d" -MT"src/stream_light.o" -o "src/stream_light.o" "../src/stream_light.c"
+'Finished building: ../src/stream_light.c'
+' '
+'Building target: stream_light.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "stream_light.elf"  ./src/platform.o ./src/stream_light.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: stream_light.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size stream_light.elf  |tee "stream_light.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3888	    288	   3120	   7296	   1c80	stream_light.elf
+'Finished building: stream_light.elf.size'
+' '
+11:17:54 **** Auto Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/stream_light.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream_light.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/stream_light.d" -MT"src/stream_light.o" -o "src/stream_light.o" "../src/stream_light.c"
+'Finished building: ../src/stream_light.c'
+' '
+'Building target: stream_light.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "stream_light.elf"  ./src/platform.o ./src/stream_light.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: stream_light.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size stream_light.elf  |tee "stream_light.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3888	    288	   3120	   7296	   1c80	stream_light.elf
+'Finished building: stream_light.elf.size'
+' '
+11:21:11 **** Auto Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/stream_light.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream_light.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/stream_light.d" -MT"src/stream_light.o" -o "src/stream_light.o" "../src/stream_light.c"
+'Finished building: ../src/stream_light.c'
+' '
+'Building target: stream_light.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "stream_light.elf"  ./src/platform.o ./src/stream_light.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: stream_light.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size stream_light.elf  |tee "stream_light.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4032	    288	   3120	   7440	   1d10	stream_light.elf
+'Finished building: stream_light.elf.size'
+' '
+12:21:23 **** Auto Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/stream_light.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream_light.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/stream_light.d" -MT"src/stream_light.o" -o "src/stream_light.o" "../src/stream_light.c"
+'Finished building: ../src/stream_light.c'
+' '
+'Building target: stream_light.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "stream_light.elf"  ./src/platform.o ./src/stream_light.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: stream_light.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size stream_light.elf  |tee "stream_light.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4032	    288	   3120	   7440	   1d10	stream_light.elf
+'Finished building: stream_light.elf.size'
+' '
+12:22:13 **** Incremental Build of configuration Debug for project stream_light ****
+make all 
+make: Nothing to be done for 'all'.
+12:22:45 **** Incremental Build of configuration Debug for project stream_light ****
+make all 
+make: Nothing to be done for 'all'.
+12:22:59 **** Incremental Build of configuration Debug for project stream_light ****
+make all 
+make: Nothing to be done for 'all'.
+12:23:18 **** Incremental Build of configuration Debug for project stream_light ****
+make all 
+make: Nothing to be done for 'all'.
+12:27:24 **** Auto Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/stream_light.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream_light.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/stream_light.d" -MT"src/stream_light.o" -o "src/stream_light.o" "../src/stream_light.c"
+'Finished building: ../src/stream_light.c'
+' '
+'Building target: stream_light.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "stream_light.elf"  ./src/platform.o ./src/stream_light.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: stream_light.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size stream_light.elf  |tee "stream_light.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4032	    288	   3120	   7440	   1d10	stream_light.elf
+'Finished building: stream_light.elf.size'
+' '
+12:27:56 **** Incremental Build of configuration Debug for project stream_light ****
+make all 
+make: Nothing to be done for 'all'.
+12:28:10 **** Incremental Build of configuration Debug for project stream_light ****
+make all 
+make: Nothing to be done for 'all'.
+12:29:46 **** Auto Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/stream_light.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream_light.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/stream_light.d" -MT"src/stream_light.o" -o "src/stream_light.o" "../src/stream_light.c"
+../src/stream_light.c: In function 'btnHandler':
+../src/stream_light.c:135:22: error: 'XPAR_AXI_TIMER_1_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_TIMER_0_BASEADDR'?
+    case 0: Xil_Out32(XPAR_AXI_TIMER_1_BASEADDR + XTC_TLR_OFFSET, RESET_VALUE1); i++;
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+                      XPAR_AXI_TIMER_0_BASEADDR
+../src/stream_light.c:135:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:26: src/stream_light.o] Error 1
+12:30:26 **** Auto Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/stream_light.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream_light.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/stream_light.d" -MT"src/stream_light.o" -o "src/stream_light.o" "../src/stream_light.c"
+'Finished building: ../src/stream_light.c'
+' '
+'Building target: stream_light.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "stream_light.elf"  ./src/platform.o ./src/stream_light.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: stream_light.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size stream_light.elf  |tee "stream_light.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4032	    288	   3120	   7440	   1d10	stream_light.elf
+'Finished building: stream_light.elf.size'
+' '
+12:30:32 **** Incremental Build of configuration Debug for project stream_light ****
+make all 
+make: Nothing to be done for 'all'.
+12:31:07 **** Auto Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/stream_light.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream_light.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/stream_light.d" -MT"src/stream_light.o" -o "src/stream_light.o" "../src/stream_light.c"
+'Finished building: ../src/stream_light.c'
+' '
+'Building target: stream_light.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "stream_light.elf"  ./src/platform.o ./src/stream_light.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: stream_light.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size stream_light.elf  |tee "stream_light.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4032	    288	   3120	   7440	   1d10	stream_light.elf
+'Finished building: stream_light.elf.size'
+' '
+12:32:05 **** Auto Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/stream_light.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream_light.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/stream_light.d" -MT"src/stream_light.o" -o "src/stream_light.o" "../src/stream_light.c"
+'Finished building: ../src/stream_light.c'
+' '
+'Building target: stream_light.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "stream_light.elf"  ./src/platform.o ./src/stream_light.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: stream_light.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size stream_light.elf  |tee "stream_light.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4032	    288	   3120	   7440	   1d10	stream_light.elf
+'Finished building: stream_light.elf.size'
+' '
+12:32:10 **** Incremental Build of configuration Debug for project stream_light ****
+make all 
+make: Nothing to be done for 'all'.
+12:33:07 **** Incremental Build of configuration Debug for project stream_light ****
+make all 
+make: Nothing to be done for 'all'.
+12:35:57 **** Auto Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/stream_light.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream_light.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/stream_light.d" -MT"src/stream_light.o" -o "src/stream_light.o" "../src/stream_light.c"
+'Finished building: ../src/stream_light.c'
+' '
+'Building target: stream_light.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "stream_light.elf"  ./src/platform.o ./src/stream_light.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: stream_light.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size stream_light.elf  |tee "stream_light.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4080	    288	   3120	   7488	   1d40	stream_light.elf
+'Finished building: stream_light.elf.size'
+' '
+12:36:10 **** Incremental Build of configuration Debug for project stream_light ****
+make all 
+make: Nothing to be done for 'all'.
+12:39:03 **** Auto Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/stream_light.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream_light.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/stream_light.d" -MT"src/stream_light.o" -o "src/stream_light.o" "../src/stream_light.c"
+'Finished building: ../src/stream_light.c'
+' '
+'Building target: stream_light.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "stream_light.elf"  ./src/platform.o ./src/stream_light.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: stream_light.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size stream_light.elf  |tee "stream_light.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4032	    288	   3120	   7440	   1d10	stream_light.elf
+'Finished building: stream_light.elf.size'
+' '
+12:39:09 **** Incremental Build of configuration Debug for project stream_light ****
+make all 
+make: Nothing to be done for 'all'.
+14:30:16 **** Build of project demo1_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_8/src"
+make -C microblaze_0/libsrc/cpu_v2_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_8/src"
+make -C microblaze_0/libsrc/intc_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_8/src"
+make -C microblaze_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_8/src"
+make -C microblaze_0/libsrc/cpu_v2_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_8/src"
+make -C microblaze_0/libsrc/intc_v3_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_8/src"
+make -C microblaze_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+14:30:38 **** Build of configuration Debug for project chainsaw_wave ****
+make all 
+'Building file: ../src/chainsaw_wave.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chainsaw_wave.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chainsaw_wave.d" -MT"src/chainsaw_wave.o" -o "src/chainsaw_wave.o" "../src/chainsaw_wave.c"
+'Finished building: ../src/chainsaw_wave.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: chainsaw_wave.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "chainsaw_wave.elf"  ./src/chainsaw_wave.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: chainsaw_wave.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size chainsaw_wave.elf  |tee "chainsaw_wave.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3952	    360	   3624	   7936	   1f00	chainsaw_wave.elf
+'Finished building: chainsaw_wave.elf.size'
+' '
+14:30:41 **** Build of configuration Debug for project calculator_serial_IO ****
+make all 
+'Building file: ../src/calculator.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/calculator.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/calculator.d" -MT"src/calculator.o" -o "src/calculator.o" "../src/calculator.c"
+'Finished building: ../src/calculator.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: calculator_serial_IO.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "calculator_serial_IO.elf"  ./src/calculator.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: calculator_serial_IO.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size calculator_serial_IO.elf  |tee "calculator_serial_IO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21096	    364	   3108	  24568	   5ff8	calculator_serial_IO.elf
+'Finished building: calculator_serial_IO.elf.size'
+' '
+14:30:42 **** Build of configuration Debug for project button_in ****
+make all 
+'Building file: ../src/button_in.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/button_in.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/button_in.d" -MT"src/button_in.o" -o "src/button_in.o" "../src/button_in.c"
+'Finished building: ../src/button_in.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: button_in.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "button_in.elf"  ./src/button_in.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: button_in.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size button_in.elf  |tee "button_in.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6088	    364	   3108	   9560	   2558	button_in.elf
+'Finished building: button_in.elf.size'
+' '
+14:30:44 **** Build of configuration Debug for project Parallel_Lab3_pgmctr ****
+make all 
+'Building file: ../src/lab3_pgmctr.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab3_pgmctr.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab3_pgmctr.d" -MT"src/lab3_pgmctr.o" -o "src/lab3_pgmctr.o" "../src/lab3_pgmctr.c"
+'Finished building: ../src/lab3_pgmctr.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Parallel_Lab3_pgmctr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Parallel_Lab3_pgmctr.elf"  ./src/lab3_pgmctr.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Parallel_Lab3_pgmctr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Parallel_Lab3_pgmctr.elf  |tee "Parallel_Lab3_pgmctr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4244	    360	   3108	   7712	   1e20	Parallel_Lab3_pgmctr.elf
+'Finished building: Parallel_Lab3_pgmctr.elf.size'
+' '
+14:30:46 **** Build of configuration Debug for project Parallel_Lab3_intrhdl ****
+make all 
+'Building file: ../src/lab3_intrhdl.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab3_intrhdl.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab3_intrhdl.d" -MT"src/lab3_intrhdl.o" -o "src/lab3_intrhdl.o" "../src/lab3_intrhdl.c"
+'Finished building: ../src/lab3_intrhdl.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Parallel_Lab3_intrhdl.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Parallel_Lab3_intrhdl.elf"  ./src/lab3_intrhdl.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Parallel_Lab3_intrhdl.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Parallel_Lab3_intrhdl.elf  |tee "Parallel_Lab3_intrhdl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4108	    277	   3151	   7536	   1d70	Parallel_Lab3_intrhdl.elf
+'Finished building: Parallel_Lab3_intrhdl.elf.size'
+' '
+14:30:47 **** Build of configuration Debug for project Parallel_Lab3_fastintr ****
+make all 
+'Building file: ../src/lab3_fastintr.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab3_fastintr.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab3_fastintr.d" -MT"src/lab3_fastintr.o" -o "src/lab3_fastintr.o" "../src/lab3_fastintr.c"
+'Finished building: ../src/lab3_fastintr.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Parallel_Lab3_fastintr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Parallel_Lab3_fastintr.elf"  ./src/lab3_fastintr.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Parallel_Lab3_fastintr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Parallel_Lab3_fastintr.elf  |tee "Parallel_Lab3_fastintr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4764	    380	   3152	   8296	   2068	Parallel_Lab3_fastintr.elf
+'Finished building: Parallel_Lab3_fastintr.elf.size'
+' '
+14:30:49 **** Build of configuration Debug for project Parallel_Lab1_pgmctr ****
+make all 
+'Building file: ../src/lab1_pgmctr_.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab1_pgmctr_.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab1_pgmctr_.d" -MT"src/lab1_pgmctr_.o" -o "src/lab1_pgmctr_.o" "../src/lab1_pgmctr_.c"
+'Finished building: ../src/lab1_pgmctr_.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Parallel_Lab1_pgmctr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Parallel_Lab1_pgmctr.elf"  ./src/lab1_pgmctr_.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Parallel_Lab1_pgmctr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Parallel_Lab1_pgmctr.elf  |tee "Parallel_Lab1_pgmctr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3336	    360	   3104	   6800	   1a90	Parallel_Lab1_pgmctr.elf
+'Finished building: Parallel_Lab1_pgmctr.elf.size'
+' '
+14:30:51 **** Build of configuration Debug for project Parallel_Lab1_intrhdl ****
+make all 
+'Building file: ../src/lab1_intrhdl.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab1_intrhdl.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab1_intrhdl.d" -MT"src/lab1_intrhdl.o" -o "src/lab1_intrhdl.o" "../src/lab1_intrhdl.c"
+'Finished building: ../src/lab1_intrhdl.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Parallel_Lab1_intrhdl.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Parallel_Lab1_intrhdl.elf"  ./src/lab1_intrhdl.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Parallel_Lab1_intrhdl.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Parallel_Lab1_intrhdl.elf  |tee "Parallel_Lab1_intrhdl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3480	    270	   3122	   6872	   1ad8	Parallel_Lab1_intrhdl.elf
+'Finished building: Parallel_Lab1_intrhdl.elf.size'
+' '
+14:30:52 **** Build of configuration Debug for project Parallel_Lab1_fastintr ****
+make all 
+'Building file: ../src/lab1_fastintr.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab1_fastintr.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab1_fastintr.d" -MT"src/lab1_fastintr.o" -o "src/lab1_fastintr.o" "../src/lab1_fastintr.c"
+'Finished building: ../src/lab1_fastintr.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Parallel_Lab1_fastintr.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Parallel_Lab1_fastintr.elf"  ./src/lab1_fastintr.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Parallel_Lab1_fastintr.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Parallel_Lab1_fastintr.elf  |tee "Parallel_Lab1_fastintr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4104	    372	   3124	   7600	   1db0	Parallel_Lab1_fastintr.elf
+'Finished building: Parallel_Lab1_fastintr.elf.size'
+' '
+14:30:54 **** Build of configuration Debug for project fast_interrupt ****
+make all 
+'Building file: ../src/fast_interrupt.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fast_interrupt.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/fast_interrupt.d" -MT"src/fast_interrupt.o" -o "src/fast_interrupt.o" "../src/fast_interrupt.c"
+'Finished building: ../src/fast_interrupt.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: fast_interrupt.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "fast_interrupt.elf"  ./src/fast_interrupt.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fast_interrupt.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size fast_interrupt.elf  |tee "fast_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3920	    360	   3128	   7408	   1cf0	fast_interrupt.elf
+'Finished building: fast_interrupt.elf.size'
+' '
+14:30:56 **** Build of configuration Debug for project interrupt_handler ****
+make all 
+'Building file: ../src/interrupt_handler.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_handler.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/interrupt_handler.d" -MT"src/interrupt_handler.o" -o "src/interrupt_handler.o" "../src/interrupt_handler.c"
+'Finished building: ../src/interrupt_handler.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: interrupt_handler.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "interrupt_handler.elf"  ./src/interrupt_handler.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_handler.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size interrupt_handler.elf  |tee "interrupt_handler.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3288	    260	   3132	   6680	   1a18	interrupt_handler.elf
+'Finished building: interrupt_handler.elf.size'
+' '
+14:30:57 **** Build of configuration Debug for project led_in ****
+make all 
+'Building file: ../src/led_in.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_in.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/led_in.d" -MT"src/led_in.o" -o "src/led_in.o" "../src/led_in.c"
+'Finished building: ../src/led_in.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: led_in.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "led_in.elf"  ./src/led_in.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_in.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size led_in.elf  |tee "led_in.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6224	    364	   3108	   9696	   25e0	led_in.elf
+'Finished building: led_in.elf.size'
+' '
+14:30:59 **** Build of configuration Debug for project program_control ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/program_control.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/program_control.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/program_control.d" -MT"src/program_control.o" -o "src/program_control.o" "../src/program_control.c"
+'Finished building: ../src/program_control.c'
+' '
+'Building target: program_control.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "program_control.elf"  ./src/platform.o ./src/program_control.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: program_control.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size program_control.elf  |tee "program_control.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3364	    360	   3108	   6832	   1ab0	program_control.elf
+'Finished building: program_control.elf.size'
+' '
+14:31:01 **** Build of configuration Debug for project seg_display ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/seg_display.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/seg_display.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/seg_display.d" -MT"src/seg_display.o" -o "src/seg_display.o" "../src/seg_display.c"
+'Finished building: ../src/seg_display.c'
+' '
+'Building target: seg_display.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "seg_display.elf"  ./src/platform.o ./src/seg_display.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: seg_display.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size seg_display.elf  |tee "seg_display.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2764	    360	   3108	   6232	   1858	seg_display.elf
+'Finished building: seg_display.elf.size'
+' '
+14:31:02 **** Build of configuration Debug for project stream_light ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/stream_light.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream_light.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/stream_light.d" -MT"src/stream_light.o" -o "src/stream_light.o" "../src/stream_light.c"
+'Finished building: ../src/stream_light.c'
+' '
+'Building target: stream_light.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "stream_light.elf"  ./src/platform.o ./src/stream_light.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: stream_light.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size stream_light.elf  |tee "stream_light.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4032	    288	   3120	   7440	   1d10	stream_light.elf
+'Finished building: stream_light.elf.size'
+' '
+14:31:04 **** Build of configuration Debug for project switch_in ****
+make all 
+'Building file: ../src/switch_in.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/switch_in.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/switch_in.d" -MT"src/switch_in.o" -o "src/switch_in.o" "../src/switch_in.c"
+'Finished building: ../src/switch_in.c'
+' '
+'Building target: switch_in.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "switch_in.elf"  ./src/switch_in.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: switch_in.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size switch_in.elf  |tee "switch_in.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6040	    364	   3108	   9512	   2528	switch_in.elf
+'Finished building: switch_in.elf.size'
+' '
+14:31:13 **** Incremental Build of configuration Debug for project stream_light ****
+make all 
+make: Nothing to be done for 'all'.
+14:38:43 **** Build of configuration Debug for project exam ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: exam.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "exam.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: exam.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size exam.elf  |tee "exam.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3140	    360	   3108	   6608	   19d0	exam.elf
+'Finished building: exam.elf.size'
+' '
+14:39:32 **** Auto Build of configuration Debug for project exam ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: exam.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "exam.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/vivado/sdk/2018.3/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.3.1/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: In function `_crtinit':
+(.text+0x78): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: exam.elf] Error 1
+14:39:38 **** Clean-only build of configuration Debug for project exam ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  exam.elf.size  exam.elf
+' '
+14:39:39 **** Auto Build of configuration Debug for project exam ****
+make all 
+'Building file: ../src/exam.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/exam.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/exam.d" -MT"src/exam.o" -o "src/exam.o" "../src/exam.c"
+'Finished building: ../src/exam.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: exam.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "exam.elf"  ./src/exam.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/vivado/sdk/2018.3/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.3.1/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: In function `_crtinit':
+(.text+0x78): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: exam.elf] Error 1
+14:56:46 **** Auto Build of configuration Debug for project exam ****
+make all 
+'Building file: ../src/exam.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/exam.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/exam.d" -MT"src/exam.o" -o "src/exam.o" "../src/exam.c"
+'Finished building: ../src/exam.c'
+' '
+'Building target: exam.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "exam.elf"  ./src/exam.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: exam.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size exam.elf  |tee "exam.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2804	    288	   3124	   6216	   1848	exam.elf
+'Finished building: exam.elf.size'
+' '
+14:57:21 **** Auto Build of configuration Debug for project exam ****
+make all 
+'Building file: ../src/exam.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/exam.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/exam.d" -MT"src/exam.o" -o "src/exam.o" "../src/exam.c"
+'Finished building: ../src/exam.c'
+' '
+'Building target: exam.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "exam.elf"  ./src/exam.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: exam.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size exam.elf  |tee "exam.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2804	    288	   3124	   6216	   1848	exam.elf
+'Finished building: exam.elf.size'
+' '
+14:57:53 **** Incremental Build of configuration Debug for project exam ****
+make all 
+make: Nothing to be done for 'all'.
+15:01:37 **** Auto Build of configuration Debug for project exam ****
+make all 
+'Building file: ../src/exam.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/exam.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/exam.d" -MT"src/exam.o" -o "src/exam.o" "../src/exam.c"
+'Finished building: ../src/exam.c'
+' '
+'Building target: exam.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "exam.elf"  ./src/exam.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: exam.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size exam.elf  |tee "exam.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2836	    288	   3124	   6248	   1868	exam.elf
+'Finished building: exam.elf.size'
+' '
+15:01:42 **** Incremental Build of configuration Debug for project exam ****
+make all 
+make: Nothing to be done for 'all'.
+15:05:56 **** Auto Build of configuration Debug for project exam ****
+make all 
+'Building file: ../src/exam.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/exam.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/exam.d" -MT"src/exam.o" -o "src/exam.o" "../src/exam.c"
+../src/exam.c: In function 'btnHandler':
+../src/exam.c:52:6: error: 'read_flag' undeclared (first use in this function)
+  if (read_flag == 0)
+      ^~~~~~~~~
+../src/exam.c:52:6: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:26: src/exam.o] Error 1
+15:06:01 **** Auto Build of configuration Debug for project exam ****
+make all 
+'Building file: ../src/exam.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/exam.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/exam.d" -MT"src/exam.o" -o "src/exam.o" "../src/exam.c"
+'Finished building: ../src/exam.c'
+' '
+'Building target: exam.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "exam.elf"  ./src/exam.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: exam.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size exam.elf  |tee "exam.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2844	    288	   3124	   6256	   1870	exam.elf
+'Finished building: exam.elf.size'
+' '
+15:06:35 **** Incremental Build of configuration Debug for project exam ****
+make all 
+make: Nothing to be done for 'all'.

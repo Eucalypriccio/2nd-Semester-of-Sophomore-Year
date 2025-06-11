@@ -1,0 +1,17 @@
+16:43:15 **** Auto Build of configuration Debug for project demo1 ****
+make all 
+'Building file: ../src/switch_in.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/switch_in.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/switch_in.d" -MT"src/switch_in.o" -o "src/switch_in.o" "../src/switch_in.c"
+'Finished building: ../src/switch_in.c'
+' '
+'Building target: demo1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "demo1.elf"  ./src/button_in.o ./src/led_in.o ./src/seg_display.o ./src/switch_in.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/vivado/sdk/2018.3/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.3.1/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: In function `_crtinit':
+(.text+0x78): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: demo1.elf] Error 1
+
+16:43:16 Build Finished (took 482ms)
+

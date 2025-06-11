@@ -1,0 +1,26 @@
+14:30:59 **** Build of configuration Debug for project program_control ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/program_control.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/program_control.o" -I../../demo1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/program_control.d" -MT"src/program_control.o" -o "src/program_control.o" "../src/program_control.c"
+'Finished building: ../src/program_control.c'
+' '
+'Building target: program_control.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../demo1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "program_control.elf"  ./src/platform.o ./src/program_control.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: program_control.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size program_control.elf  |tee "program_control.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3364	    360	   3108	   6832	   1ab0	program_control.elf
+'Finished building: program_control.elf.size'
+' '
+
+14:31:01 Build Finished (took 1s.633ms)
+

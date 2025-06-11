@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}实验目的}{3}{section.1}%
+\contentsline {section}{\numberline {2}实验元器件}{3}{section.2}%
+\contentsline {section}{\numberline {3}实验任务}{3}{section.3}%
+\contentsline {section}{\numberline {4}实验原理}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}MOSFET共源放大电路安装、调试及测试}{4}{subsection.4.1}%
+\contentsline {section}{\numberline {5}实验过程}{5}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Multisim 仿真}{5}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}DC Operating Point 模拟直流静态工作点}{5}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Single frequency ac analysis 得到输入输出电压曲线}{6}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}AC Analysis 得到幅频特性曲线}{7}{subsubsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.4}AC 模式测量输入阻抗}{7}{subsubsection.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.5}AC 模式测量输出阻抗}{8}{subsubsection.5.1.5}%
+\contentsline {subsubsection}{\numberline {5.1.6}观察失真波形}{9}{subsubsection.5.1.6}%
+\contentsline {subsubsection}{\numberline {5.1.7}MOSFET输出特性曲线仿真}{9}{subsubsection.5.1.7}%
+\contentsline {subsubsection}{\numberline {5.1.8}MOSFET转移特性曲线仿真}{10}{subsubsection.5.1.8}%
+\contentsline {subsection}{\numberline {5.2}单极 MOSFET 共源放大电路插板实验}{12}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}测试静态工作点}{12}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}测试放大电路的输入、输出波形和通带电压增益}{12}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}测试放大电路的输入电阻}{13}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.4}测试放大电路的输出电阻}{13}{subsubsection.5.2.4}%
+\contentsline {subsubsection}{\numberline {5.2.5}测试放大电路的通频带}{13}{subsubsection.5.2.5}%
+\contentsline {subsubsection}{\numberline {5.2.6}观察失真波形}{14}{subsubsection.5.2.6}%
+\contentsline {section}{\numberline {6}实验小结}{14}{section.6}%
